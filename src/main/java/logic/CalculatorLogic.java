@@ -32,7 +32,6 @@ public class CalculatorLogic {
     public static double podajLiczbe(int i) {
         Scanner sc = new Scanner(System.in);
         System.out.format("Podaj liczbe %d :", i);
-        double output = sc.nextDouble();
-        return output;
+        return sc.nextDouble();
     }
 }
