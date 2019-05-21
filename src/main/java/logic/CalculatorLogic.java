@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class CalculatorLogic {
 
-    private double a, b;
 
     public CalculatorLogic() {
     }
