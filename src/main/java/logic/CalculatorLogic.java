@@ -35,12 +35,4 @@ public class CalculatorLogic {
         double output = sc.nextDouble();
         return output;
     }
-
-    @Override
-    public String toString() {
-        return "CalculatorLogic{" +
-                "a=" + a +
-                ", b=" + b +
-                '}';
-    }
 }
