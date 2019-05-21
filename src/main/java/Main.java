@@ -1,10 +1,15 @@
 import logic.CalculatorLogic;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        double first = CalculatorLogic.podajLiczbe(1);
-        double second = CalculatorLogic.podajLiczbe(2);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("podaj liczbe nr 1");
+        double first = sc.nextDouble();
+        System.out.println("podaj liczbe nr 2");
+        double second = sc.nextDouble();
         if (CalculatorLogic.isBigger(first, second)) {
             System.out.println(CalculatorLogic.sum(first, second));
         } else if (CalculatorLogic.isEqual(first, second)) {
